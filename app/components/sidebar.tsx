@@ -5,6 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
+import HotIcon from "../icons/hot.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
@@ -209,6 +210,11 @@ export function SideBar(props: { className?: string }) {
           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
+            </a>
+          </div>
+          <div className={styles["sidebar-action"]}>
+            <a href={HOT_URL} target="_blank" rel="noopener noreferrer">
+              <IconButton icon={<HotIcon />} shadow />
             </a>
           </div>
         </div>
