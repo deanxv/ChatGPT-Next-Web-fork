@@ -24,6 +24,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  HOT_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
